@@ -1,5 +1,6 @@
 const mongoose = require("mongoose")
 
+console.log(4)
 const schema = new mongoose.Schema({
     name: {
         type: String,
