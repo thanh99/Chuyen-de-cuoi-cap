@@ -1,5 +1,7 @@
 const model = require('./model')
 
+console.log("denoe")
+
 const handlers = {
   async findMany(req, res, next) {
     try {
