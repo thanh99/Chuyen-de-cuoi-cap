@@ -30,7 +30,6 @@ const handlers = {
       let limit = pageSize
       let conditions = {}
       if (search) {
-        // find item with title contains search string
         conditions.name = new RegExp(search, 'i')
       }
 
