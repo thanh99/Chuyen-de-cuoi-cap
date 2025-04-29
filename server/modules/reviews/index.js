@@ -3,6 +3,7 @@ const mongoose = require('mongoose')
 const { json } = require('body-parser')
 const sentMailHandler = require('../../sendMail')
 
+console.log(2222)
 const handlers = {
   /**
    * @description: query: 
